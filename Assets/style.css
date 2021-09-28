@@ -1,0 +1,256 @@
+/*------fonts-------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*common-----*/
+body{
+    margin: 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*-------------
+| | Button
+---------------*/
+.button {
+    background-color:red; 
+    background-image: linear-gradient(orange,red);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+/*-------------------
+| | Top container start
+---------------------*/
+.top-container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.top-container-left{
+    width: 50%;
+}
+
+.top-container-right{
+    width: 50%;
+}
+
+.top-left-content span{
+    color: orange;
+}
+
+.top-left-content h1{
+ font-size: 50px;
+}
+
+.top-left-content{
+    color: darkgray;
+    position: absolute;
+    left: 100px;
+}
+.top-left-content button{
+ border-radius: 8px;
+ width: 150px;
+
+}
+
+/*-------------------
+| | Top container end
+---------------------*/
+
+/*-------------------
+| | mid container start
+---------------------*/
+.mid-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+
+.mid-left-container{
+    width: 50%;
+}
+
+.mid-right-container{
+    width: 50%;
+}
+.mid-left-content{
+    position: absolute;
+    top:655px;
+    left: 200px;
+}
+
+.mid-right-content h1{
+    color: darkgray;
+    font-size: 35px;
+}
+
+.mid-right-content span{
+    font-size: 18px;
+}
+
+.mid-right-content button{
+    border-radius: 8px;
+    width: 150px; 
+   }
+   
+/*-------------------
+| | mid container end
+---------------------*/
+
+
+/*====================
+| | Third container 
+paragraph
+======================*/
+.para {
+text-align: center;
+color: darkgray;
+}
+
+/*-------------------
+| | third container start
+---------------------*/
+.third-container{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+}
+
+.third-left-container{
+    width: 33%;
+}
+
+.third-mid-container{
+    width: 33%;
+}
+
+.third-right-container{
+    width: 33%;
+}
+
+.third-left-content{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.third-mid-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.third-right-content{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  max-width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+/*-------------------
+| | third container end
+---------------------*/
+
+
+
+/*-------------------
+| | last container start
+---------------------*/
+
+.last-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.last-content{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: 1100px;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+    position: absolute;
+    left: 50px;
+    top: 1900px;
+    font-size: 30px;
+}
+
+.last-content h2{
+    justify-content: flex-start;
+    word-spacing:300px;
+    position: absolute;
+    top: 0px;
+}
+
+.last-content span{
+    color: black;
+    
+
+}
+
+.last-content-sp{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+.last-content-sp1{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+/*-------------------
+| | last container end
+---------------------*/
+
+
+/*--------------------
+| | footer
+----------------------*/
+
+footer{
+	background-color: black;
+	width: 1240px;
+	padding: 50px;
+	margin:0px;
+	position: absolute;
+	top: 2300px;
+}
+
+footer h2{
+    color: orange;
+    text-align: center;
+
+}
+
+footer span{
+    color:darkgray
+}
+
+ .foot{
+color: darkgray;
+text-align: center;
+}
+
